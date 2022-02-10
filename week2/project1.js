@@ -19,13 +19,14 @@ var link=document.createTextNode("portfolium");
 a.appendChild(link);
 a.href="https://portfolium.com/stephanieguzman/portfolio"
 document.body.appendChild(a)
+a.style.paddingLeft="5%";
 
 var a= document.createElement('a');
 var link=document.createTextNode("contact");
 a.appendChild(link);
 a.href="https://bryanuniversity.fideliseducation.com/home.html#/editPurpose"
 document.body.appendChild(a)
-
+a.style.paddingLeft="5%";
 
 var newOl=document.createElement('ol')
 newOl.textContent="new list"
