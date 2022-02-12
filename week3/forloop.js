@@ -18,5 +18,5 @@ newOl.textContent="names"
 document.body.append(newOl)
 for(let i = 0; i < names.length; i ++) {
   newOl.innerHTML += "<li>" + names[i] + "</li>";
-
+  
 }
