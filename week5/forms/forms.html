@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form id="payment">
+        <div class="container">
+          <h1>submit payment</h1>
+          <p>Please enter card information.</p>
+          <hr>
+      
+          <label for="cardnumber"><b>card number</b></label>
+          <input type="number" placeholder="card number" name="cnumber" id="cdnumber" required>
+      
+          <label for="expdate"><b>Expiration Date</b></label>
+          <input type="date" placeholder="Exp date" name="expdate" id="date" required>
+      
+          <label for="CVV-number"><b>CVV Number</b></label>
+          <input type="number" placeholder="CVV number" name="cvv" id="cnumber" required>
+          <hr>
+         
+
+          <button onclick="myFunction()">cancel payment</button>
+          <button type="submit" class="submitbtn">Submit Payment</button>
+        </div>
+      
+        </div>
+      </form>
+      <script>
+        function myFunction() {
+          alert("If payment is canceled payment will not be posted on to your account.");
+        }
+        </script>
+         <script src="forms.html"></script>
+</body>
+</html>
