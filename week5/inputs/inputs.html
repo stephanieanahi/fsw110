@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer Survey</title>
+</head>
+<body>
+<form id="Survey">
+    <div class="container">
+        <h1>Customer Survey</h1>
+        <p>Please  these answer questions regarding your experience at our store.</p>
+        <hr>
+
+        <label for="customername"><b>first name</b></label>
+        <input type="firstname" placeholder="first name" name="cname" id="fname" required>
+    
+        <label for="name"><b>last name</b></label>
+        <input type="lastname" placeholder="last name" name="lname" id="ltname" required>
+    
+        <label for="age"><b>Age</b></label>
+        <input type="number" placeholder="age" name="anumber" id="agenumber" required>
+        <hr>
+
+
+        <h2>what would make our store better?</h2>
+        <p>please select all that apply.</p>
+<form>
+  <input type="radio" id="ys" name="deals" value="mdeals">
+  <label for="moredeals">more deals</label>
+  <input type="radio" id="staff" name="store" value="moreemployees">
+  <label for="semployees">more store employees</label>
+<input type="radio" id="foodcourt" name="food" value="fcourt">
+  <label for="fdcourt">food court</label>
+
+</form> 
+<h3> Have you shopped with us before?</h3>
+<form>
+    <input type="radio" id="html" name="question" value="no">
+    <label for="notyet">no</label>
+
+    <input type="radio" id="css" name="question" value="yes">
+    <label for="yesihave">yes</label>
+
+</form>
+<form>
+    <h3>Would wou like to recieve emails from our store?</h3>
+    <P>emails can include coupons and more!</P>
+    
+    <input type="radio" id="yess" name="question" value="ofcourse">
+    <label for="forsure">yes</label>
+    <input type="radio" id="unsure" name="question" value="notsure">
+    <label for="notforsure">not intrested </label>
+    <input type="radio" id="onlyblackfridaydeals" name="question" value="notrightnow">
+    <label for="notnow">sign me up on black friday</label>
+
+</form>
+<form>
+    <button onclick="myFunction()">submit survey</button>
+</form>
+
+
+
+
+
+
+
+    </div>
+</form>
+
+<script>
+    function myFunction() {
+      alert("Thank you for your feedback!");
+    }
+    </script>
+
+
+
+    <script src="inputs.js"></script>
+    
+</body>
+</html>
