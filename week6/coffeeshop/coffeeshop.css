@@ -1,0 +1,43 @@
+
+header {
+    font-size: 40px;
+    text-align: center;
+    color:  rgba(177, 147, 102, 0.863);
+}
+
+
+
+
+footer {
+    text-align: center;
+    color:  rgba(177, 147, 102, 0.863);
+}
+table, th, td {
+    border:1px solid rgb(158, 158, 157);
+    color:rgba(211, 157, 77, 0.863) ;
+}
+  table {
+      width: 50%;
+  }
+  P {
+      color:rgba(177, 147, 102, 0.863) ;
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  form {
+      color: aliceblue;
+      border: 3px solid white;
+      float:right;
+  }
+  h2 {
+      text-align: center;
+  }
+  body {
+      background-color: rgb(36, 33, 33);
+  }
+  table {
+      width: 800px;
+      text-align: left;
+      font-size: 25px;
+  }
