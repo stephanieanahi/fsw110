@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <form id="mytodo"></form>
+    <h1>My to do list</h1>
+    <div id="myDIV" class="header">
+        <p>things to do before March 20th</p>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>buy kids soccer uniform</li>
+        <li class="checked">Pay light bill</li>
+        <li>schedule dentist appointments for kids</li>
+        <li>Buy grocieres</li>
+        <li>schedule meeting with team lead</li>
+        <li>plan Athans birthday party</li>
+      </ul>
+      
+
+    </form>
+
+    <script src="todolist.js"></script>
+</body>
+</html>
