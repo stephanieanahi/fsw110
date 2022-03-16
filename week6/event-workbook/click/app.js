@@ -1,3 +1,5 @@
 // make the box disapear when the user clicks it
-
-document.getElementById("des").style.display = "none";
+const myDiv = document.querySelector('div');
+myDiv.addEventListener('click', function(e){
+    e.target.remove();
+  });
