@@ -23,7 +23,7 @@ ul li {
     font-size: 18px;
     transition: 0.2s;
   
-    /* make the list items unselectable */
+    
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -57,7 +57,7 @@ ul li {
     width: 7px;
   }
   
-  /* Style the close button */
+ 
   .close {
     position: absolute;
     right: 0;
@@ -70,7 +70,7 @@ ul li {
     color: rgb(182, 11, 173);
   }
   
-  /* Style the header */
+ 
   .header {
    
     padding: 30px 40px;
@@ -78,17 +78,17 @@ ul li {
     text-align: center;
   }
   
-  /* Clear floats after the header */
+ 
   .header:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Style the input */
+  
   input {
     margin: 0;
-    border: none;
+    border: 1px solid purple;
     border-radius: 0;
     width: 75%;
     padding: 10px;
@@ -96,7 +96,7 @@ ul li {
     font-size: 16px;
   }
   
-  /* Style the "Add" button */
+  
   .addBtn {
     padding: 10px;
     width: 25%;
